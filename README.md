@@ -15,7 +15,6 @@
 - [ ] 2. [Google Sheets](https://www.google.ru/intl/ru/sheets/about/)
 - [ ] 3. [Google Docs](https://www.google.ru/intl/ru/docs/about/)
 - [ ] 4. [Markdown](https://stackedit.io)
-- [ ] 5. [Unix Commands](https://en.wikipedia.org/wiki/List_of_Unix_commands)
 
 ## Links
 
