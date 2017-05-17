@@ -9,9 +9,9 @@
 
 ```bash
 $ cd ~
-$ mkdir -p workspace/tp/projects/
-$ mkdir -p workspace/tp/tasks/
-$ mkdir -p workspace/tp/reports/
+$ mkdir -p workspace/labs/projects/
+$ mkdir -p workspace/labs/tasks/
+$ mkdir -p workspace/labs/reports/
 ```
 
 ## Links
