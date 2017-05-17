@@ -6,12 +6,43 @@
 
 - [ ] 1. Ознакомиться со ссылками учебного материала
 - [ ] 2. Выполнить инструкцию учебного материала
+- [ ] 3. Отправить ссылку на составленный отчет личным сообщением в **Slack**
+ 
+## Tutorial
+
+```bash
+$ export GITHUB_USERNAME=<имя_пользователя>
+$ export GIST_TOKEN=<сохраненный_токен>
+$ alias edit=<nano|vi|vim|subl>
+```
+
+```bash
+$ npm install -g gistup
+```
+
+```bash
+$ cat > ~/.gistup.json <<EOF
+{
+  "token": "${GIST_TOKEN}"
+}
+EOF
+```
 
 ```bash
 $ cd ~
 $ mkdir -p workspace/labs/projects/
 $ mkdir -p workspace/labs/tasks/
 $ mkdir -p workspace/labs/reports/
+```
+
+```bash
+$ cd ~/workspace/labs/
+$ git clone https://github.com/tp-labs/lab2 tasks/lab2
+$ mkdir tasks/lab2
+$ cp tasks/lab2/README.md reports/lab2/REPORT.md
+$ cd reports/lab2
+$ edit REPORT.md
+$ gistup -m"lab2"
 ```
 
 ## Links
@@ -57,3 +88,7 @@ $ mkdir -p workspace/labs/reports/
 - [nano](https://www.nano-editor.org)
 - [tree](https://linux.die.net/man/1/tree)
 - [vim](http://www.vim.org)
+
+```
+Copyright (c) 2017 Vyacheslav Vershinin
+```
