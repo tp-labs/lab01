@@ -6,7 +6,7 @@
 
 - [ ] 1. Ознакомиться со ссылками учебного материала
 - [ ] 2. Выполнить инструкцию учебного материала
-- [ ] 3. Отправить ссылку на составленный отчет личным сообщением в **Slack**
+- [ ] 3. Составить отчет и отправить ссылку личным сообщением в **Slack**
  
 ## Tutorial
 
@@ -35,14 +35,17 @@ $ mkdir -p workspace/labs/tasks/
 $ mkdir -p workspace/labs/reports/
 ```
 
+## Report
+
 ```bash
 $ cd ~/workspace/labs/
-$ git clone https://github.com/tp-labs/lab2 tasks/lab2
-$ mkdir tasks/lab2
-$ cp tasks/lab2/README.md reports/lab2/REPORT.md
-$ cd reports/lab2
+$ export LAB_NUMBER=02
+$ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER}
+$ mkdir reports/lab${LAB_NUMBER}
+$ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md
+$ cd reports/lab${LAB_NUMBER}
 $ edit REPORT.md
-$ gistup -m"lab2"
+$ gistup -m"lab${LAB_NUMBER}"
 ```
 
 ## Links
