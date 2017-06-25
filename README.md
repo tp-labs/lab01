@@ -45,7 +45,7 @@ $ mkdir reports/lab${LAB_NUMBER}
 $ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md
 $ cd reports/lab${LAB_NUMBER}
 $ edit REPORT.md
-$ gistup -m"lab${LAB_NUMBER}"
+$ gistup -m "lab${LAB_NUMBER}"
 ```
 
 ## Links
