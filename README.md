@@ -21,7 +21,7 @@ $ mkdir -p ${GITHUB_USERNAME}/workspace
 $ cd ${GITHUB_USERNAME}/workspace
 $ pwd
 $ cd ..
-pwd
+$ pwd
 ```
 
 ```ShellSession
