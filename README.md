@@ -1,4 +1,4 @@
-## Laboratory work II
+## Laboratory work I
 
 Данная лабораторная работа посвещена изучению утилит для разработки проектов
 
@@ -121,5 +121,5 @@ $ gistup -m "lab${LAB_NUMBER}" # enter: yes↵
 - [vim](http://www.vim.org)
 
 ```
-Copyright (c) 2017 Братья Вершинины
+Copyright (c) 2015-2019 The ISC Authors.
 ```
