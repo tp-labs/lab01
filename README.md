@@ -121,5 +121,5 @@ $ gistup -m "lab${LAB_NUMBER}" # enter: yes↵
 - [vim](http://www.vim.org)
 
 ```
-Copyright (c) 2015-2019 The ISC Authors.
+Copyright (c) 2015-2019 The ISC Authors
 ```
