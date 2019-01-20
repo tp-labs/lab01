@@ -7,7 +7,7 @@
 - [ ] 1. Ознакомиться со ссылками учебного материала
 - [ ] 2. Выполнить инструкцию учебного материала
 - [ ] 3. Составить отчет и отправить ссылку личным сообщением в **Slack**
- 
+
 ## Tutorial
 
 ```bash
@@ -40,7 +40,7 @@ $ mv node-v6.11.5-linux-x64 node
 ```
 
 ```ShellSession
-$ ls node/bin 
+$ ls node/bin
 $ echo ${PATH}
 $ export PATH=${PATH}:`pwd`/node/bin
 $ echo ${PATH}
