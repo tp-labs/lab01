@@ -67,7 +67,7 @@ EOF
 ## Report
 
 ```ShellSession
-$ export LAB_NUMBER=02
+$ export LAB_NUMBER=01
 $ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER}
 $ mkdir reports/lab${LAB_NUMBER}
 $ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md
