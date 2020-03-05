@@ -52,16 +52,11 @@ $ source scripts/activate
 ```
 
 ```ShellSession
-$ npm install -g gistup
-$ ls node/bin
+$ gem install gist
 ```
 
 ```ShellSession
-$ cat > ~/.gistup.json <<EOF
-{
-  "token": "${GIST_TOKEN}"
-}
-EOF
+$ (umask 0077 && echo ${GIST_TOKEN} > ~/.gist)
 ```
 
 ## Report
@@ -73,7 +68,7 @@ $ mkdir reports/lab${LAB_NUMBER}
 $ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md
 $ cd reports/lab${LAB_NUMBER}
 $ edit REPORT.md
-$ gistup -m "lab${LAB_NUMBER}" # enter: yes↵
+$ gist REPORT.md
 ```
 
 ## Links
