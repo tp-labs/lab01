@@ -16,7 +16,7 @@ $ export GIST_TOKEN=<сохраненный_токен>
 $ alias edit=<nano|vi|vim|subl>
 ```
 
-```ShellSession
+```sh
 $ mkdir -p ${GITHUB_USERNAME}/workspace
 $ cd ${GITHUB_USERNAME}/workspace
 $ pwd
@@ -24,14 +24,14 @@ $ cd ..
 $ pwd
 ```
 
-```ShellSession
+```sh
 $ mkdir -p workspace/tasks/
 $ mkdir -p workspace/projects/
 $ mkdir -p workspace/reports/
 $ cd workspace
 ```
 
-```ShellSession
+```sh
 # Debian
 $ wget https://nodejs.org/dist/v6.11.5/node-v6.11.5-linux-x64.tar.xz
 $ tar -xf node-v6.11.5-linux-x64.tar.xz
@@ -39,7 +39,7 @@ $ rm -rf node-v6.11.5-linux-x64.tar.xz
 $ mv node-v6.11.5-linux-x64 node
 ```
 
-```ShellSession
+```sh
 $ ls node/bin
 $ echo ${PATH}
 $ export PATH=${PATH}:`pwd`/node/bin
@@ -51,17 +51,17 @@ EOF
 $ source scripts/activate
 ```
 
-```ShellSession
+```sh
 $ gem install gist
 ```
 
-```ShellSession
+```sh
 $ (umask 0077 && echo ${GIST_TOKEN} > ~/.gist)
 ```
 
 ## Report
 
-```ShellSession
+```sh
 $ export LAB_NUMBER=01
 $ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER}
 $ mkdir reports/lab${LAB_NUMBER}
@@ -130,5 +130,5 @@ $ gist REPORT.md
 11. Найдите *топ10* самых "тяжёлых".
 
 ```
-Copyright (c) 2015-2019 The ISC Authors
+Copyright (c) 2015-2020 The ISC Authors
 ```
