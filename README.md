@@ -1,5 +1,7 @@
 ## Laboratory work I
 
+[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/tp-labs/lab01/master/preview.png)](https://yandex.ru/efir/?stream_id=vsVJzkz4i9-s)
+
 Данная лабораторная работа посвещена изучению утилит для разработки проектов
 
 ## Tasks
