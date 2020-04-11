@@ -1,20 +1,18 @@
 ## Laboratory work I
 
-<a href="https://yandex.ru/efir/?stream_id=vsVJzkz4i9-s"><img src="https://raw.githubusercontent.com/tp-labs/lab01/master/preview.png" width="640"/></a>
-
 Данная лабораторная работа посвещена изучению утилит для разработки проектов
 
 ## Tasks
 
-- [ ] 1. Ознакомиться со ссылками учебного материала
-- [ ] 2. Выполнить инструкцию учебного материала
-- [ ] 3. Составить отчет и отправить ссылку личным сообщением в **Slack**
+- [x] 1. Ознакомиться со ссылками учебного материала
+- [x] 2. Выполнить инструкцию учебного материала
+- [x] 3. Составить отчет и отправить ссылку личным сообщением в **Slack**
 
 ## Tutorial
 
 ```bash
-$ export GITHUB_USERNAME=<имя_пользователя>
-$ export GIST_TOKEN=<сохраненный_токен>
+$ export GITHUB_USERNAME=scorpy2013
+$ export GIST_TOKEN=*****************************************
 $ alias edit=<nano|vi|vim|subl>
 ```
 
