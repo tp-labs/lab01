@@ -1,7 +1,5 @@
 ## Laboratory work I
 
-<a href="https://yandex.ru/efir/?stream_id=vsVJzkz4i9-s"><img src="https://raw.githubusercontent.com/tp-labs/lab01/master/preview.png" width="640"/></a>
-
 Данная лабораторная работа посвещена изучению утилит для разработки проектов
 
 ## Tasks
@@ -132,5 +130,5 @@ $ gist REPORT.md
 11. Найдите *топ10* самых "тяжёлых".
 
 ```
-Copyright (c) 2015-2020 The ISC Authors
+Copyright (c) 2015-2021 The ISC Authors
 ```
